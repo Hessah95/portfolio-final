@@ -1,0 +1,60 @@
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  text-align: center;
+  padding: 30px;
+  font-family: Monospace;
+  font-variant: small-caps;
+  font-size: 50px;
+  text-shadow: 2px 2px 8px #777;
+}
+
+body {
+  background-color: #dedede;
+}
+
+.Gallery {
+  display: flex;
+  width: 800px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Gallery2 {
+  display: flex;
+  width: 500px;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+figure {
+  width: 200px;
+  margin: 8px 0;
+  border: .2px solid #DCDCDC;
+  padding: 8px;
+  background-color: #fff;
+}
+
+figure img {
+  width: 100%;
+}
+
+figure figcaption {
+  text-align: center;
+  padding: 8px 4px;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+figure:hover {
+  transform: scale(2);
+  box-shadow: 3px 3px 5px white;
+}
+
